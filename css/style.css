@@ -279,7 +279,7 @@ ul {
 }
 @media (max-width: 767px) {
     .landing .text h1 {
-        font-size: 30px;
+        font-size: 25px;
     }
 }
 .landing .text p{
@@ -1483,6 +1483,13 @@ ul {
 }
 .footer .footer-gallery img:hover{
     transform: scale(1.2) rotate(360deg);
+}
+@media (max-width: 767px){
+    .footer .footer-gallery img{
+        margin: 10px;
+        align-items: center;
+        justify-content: center;
+    }
 }
 .footer .copyright {
     padding: 25px 0;
