@@ -269,7 +269,7 @@ ul {
 @media (max-width: 991px) {
     .landing .text {
         text-align: center;
-        padding-top: 200px;
+        padding-top: 100px;
     }
 }
 .landing .text h1{
@@ -306,9 +306,10 @@ ul {
     animation: up-and-down 5s linear infinite;
 }
 @media (max-width: 991px) {
-    .landing .image {
+    .landing .image img{
         /* display: none; */
-        margin: 0;
+        /* margin: 0; */
+        width: 370px;
     }
 }
 .landing .go-down {
